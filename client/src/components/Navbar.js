@@ -2,21 +2,28 @@ import React from "react";
 import "./Navbar.scss";
 
 function Navbar() {
+  function handleClick(e) {
+    e.preventDefault();
+    console.log("clickclickcck");
+  }
+
   return (
     <nav>
-      <h1>Navbar</h1>
+      <h1>Clout</h1>
       <ul>
         <li>
-          <a href="#">Home</a>
+          <a href="#" onClick={handleClick}>
+            Home
+          </a>
         </li>
         <li>
           <a href="#">About</a>
         </li>
         <li>
-          <a href="#">Team</a>
+          <a href="#">Projects</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="#">Team</a>
         </li>
       </ul>
     </nav>

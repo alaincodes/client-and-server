@@ -1,0 +1,46 @@
+section {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 0.3rem;
+  margin: auto;
+  max-width: 900px;
+  div {
+    border: 1px solid white;
+    border-radius: 3px;
+    filter: drop-shadow(0px 5px 3px rgba(0, 0, 0, 0.589));
+    width: 170px;
+    height: 98%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.test:first-child {
+  background-image: url("../assets/tarek-correa-2mV2ibHWWTk-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.test:nth-child(2) {
+  background-image: url("../assets/rosie-fraser-1L71sPT5XKc-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.test:nth-child(3) {
+  background-image: url("../assets/roberto-nickson-VHRPXd7hpX0-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.test:nth-child(4) {
+  background-image: url("../assets/allie-smith-TH3ax0OeiX0-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
