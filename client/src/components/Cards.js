@@ -3,7 +3,7 @@ import "./Cards.scss";
 
 function Cards() {
   return (
-    <section>
+    <section className="cards-section">
       <div className="test" />
       <div className="test" />
       <div className="test" />
