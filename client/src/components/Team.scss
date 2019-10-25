@@ -32,3 +32,37 @@
     }
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .team-section {
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+
+    .team-grid {
+      display: flex;
+      flex-direction: column;
+      .team-grid-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .team-jobs {
+          margin: 0.5rem;
+        }
+        .team-desc {
+          margin: 0.5rem;
+        }
+        .team-img {
+          width: 100px;
+          height: 120px;
+          filter: blur(8px);
+          -webkit-filter: blur(8px);
+        }
+      }
+    }
+  }
+}
